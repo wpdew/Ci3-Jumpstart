@@ -2,6 +2,27 @@
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
+All controllers can contain an $autoload class variable, which holds an array of items to load prior to running the constructor. 
+This can be used together with module/config/autoload.php, however using the $autoload variable only works for that specific controller.
+    
+	:::php
+    <?php     
+	class Xyz extends MX_Controller 
+	{
+		$autoload = array(
+			'helper'    => array('url', 'form'),
+			'libraries' => array('email'),
+		);
+	}
+
+The Modules::$locations array may be set in the application/config.php file. ie:
+
+    :::php
+    <?php
+    $config['modules_locations'] = array(
+        APPPATH.'modules/' => '../modules/',
+    );
+    
 *We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
 
 ---
