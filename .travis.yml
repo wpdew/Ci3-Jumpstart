@@ -6,4 +6,4 @@ script:
   - php index.php -v
 branches:
   only:
-    - master
+    - 1.0-stable
