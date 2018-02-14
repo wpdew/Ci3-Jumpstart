@@ -1,5 +1,7 @@
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
+[![Coverage Status](https://coveralls.io/repos/github/pomerla/Ci3-Jumpstart/badge.svg?branch=master)](https://coveralls.io/github/pomerla/Ci3-Jumpstart?branch=master)
+
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
 All controllers can contain an $autoload class variable, which holds an array of items to load prior to running the constructor. 
