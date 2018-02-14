@@ -6,3 +6,6 @@ php:
   - nightly
 script:
   - php index.php -v
+branches:
+  only:
+    - develop
