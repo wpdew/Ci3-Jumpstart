@@ -1,6 +1,7 @@
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
 [![Coverage Status](https://coveralls.io/repos/github/pomerla/Ci3-Jumpstart/badge.svg?branch=master)](https://coveralls.io/github/pomerla/Ci3-Jumpstart?branch=master)
+[![Build Status](https://travis-ci.org/pomerla/Ci3-Jumpstart.svg?branch=master)](https://travis-ci.org/pomerla/Ci3-Jumpstart)
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
