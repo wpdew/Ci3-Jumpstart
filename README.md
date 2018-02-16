@@ -1,7 +1,27 @@
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
 [![Build Status](https://travis-ci.org/bcit-ci/CodeIgniter4.svg?branch=develop)](https://travis-ci.org/bcit-ci/CodeIgniter4)
-[![Coverage Status](https://coveralls.io/repos/github/pomerla/Ci3-Jumpstart/badge.svg)](https://coveralls.io/github/pomerla/Ci3-Jumpstart)
+
+[![GitHub issues](https://img.shields.io/github/issues/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/issues)
+[![GitHub forks](https://img.shields.io/github/forks/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/network)
+[![GitHub stars](https://img.shields.io/github/stars/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/stargazers)
+[![GitHub license](https://img.shields.io/github/license/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/pomerla/Ci3-Jumpstart.svg?style=social&style=plastic)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fpomerla%2FCi3-Jumpstart)
+[![API](https://img.shields.io/badge/11%2022%20333-August%2023%2C%202017-36ade1.svg)](https://###)
+![PHP](https://img.shields.io/badge/php-%3E%3D5.3-8892bf.svg)
+
+https://img.shields.io/badge/1-2-green.svg
+<p class="badge-img">
+<img src="https://img.shields.io/badge/color-brightgreen-brightgreen.svg?maxAge=2592000" alt="brightgreen">
+<img src="https://img.shields.io/badge/color-green-green.svg?maxAge=2592000" alt="green">
+<img src="https://img.shields.io/badge/color-yellowgreen-yellowgreen.svg?maxAge=2592000" alt="yellowgreen">
+<img src="https://img.shields.io/badge/color-yellow-yellow.svg?maxAge=2592000" alt="yellow">
+<img src="https://img.shields.io/badge/color-orange-orange.svg?maxAge=2592000" alt="orange">
+<img src="https://img.shields.io/badge/color-red-red.svg?maxAge=2592000" alt="red">
+<img src="https://img.shields.io/badge/color-lightgrey-lightgrey.svg?maxAge=2592000" alt="lightgrey">
+<img src="https://img.shields.io/badge/color-blue-blue.svg?maxAge=2592000" alt="blue">
+<img src="https://img.shields.io/badge/color-ff69b4-ff69b4.svg?maxAge=2592000" alt="ff69b4">
+</p>
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
