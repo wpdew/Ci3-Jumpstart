@@ -6,13 +6,13 @@
         {
             "name": "Aleksandr Moroz",
             "email": "aleksmorro@gmail.com"
-        },
-	"support": {
+        }
+    ],
+    "support": {
 		"forum": "http://moroz.rv.ua/",
 		"wiki": "http://moroz.rv.ua",
 		"source": "https://github.com/pomerla/Ci3-Jumpstart"
-	}
-    ],
+	},
     "license": "MIT",
     "minimum-stability": "alpha"
 }
