@@ -27,7 +27,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer create-project pomerla/comingsoon
+composer create-project pomerla/ci3-jumpstart
 ```
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
