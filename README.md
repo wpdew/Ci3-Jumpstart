@@ -1,7 +1,4 @@
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
-
-[![Build Status](https://travis-ci.org/bcit-ci/CodeIgniter4.svg?branch=develop)](https://travis-ci.org/bcit-ci/CodeIgniter4)
-
 [![GitHub issues](https://img.shields.io/github/issues/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/issues)
 [![GitHub forks](https://img.shields.io/github/forks/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/network)
 [![GitHub stars](https://img.shields.io/github/stars/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/stargazers)
