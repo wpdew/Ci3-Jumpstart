@@ -1,5 +1,7 @@
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
+[![Build Status](https://travis-ci.org/bcit-ci/CodeIgniter4.svg?branch=develop)](https://travis-ci.org/bcit-ci/CodeIgniter4)
+[![Coverage Status](https://coveralls.io/repos/github/pomerla/Ci3-Jumpstart/badge.svg)](https://coveralls.io/github/pomerla/Ci3-Jumpstart)
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
