@@ -1,7 +1,6 @@
-#-------------------------
-# Composer
-#-------------------------
+.gitignore
 vendor/
-composer.lock
+/vendor/
 .travis.yml
 composer.json
+composer.lock
