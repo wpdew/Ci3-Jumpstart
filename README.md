@@ -21,6 +21,15 @@
 <img src="https://img.shields.io/badge/color-new-8892bf.svg?maxAge=2592000" alt="8892bf">
 </p>
 
+## Quick start
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```
+composer create-project pomerla/ci3-jumpstart
+```
+
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
 All controllers can contain an $autoload class variable, which holds an array of items to load prior to running the constructor. 
