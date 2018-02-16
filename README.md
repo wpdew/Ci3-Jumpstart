@@ -18,6 +18,7 @@
 <img src="https://img.shields.io/badge/color-lightgrey-lightgrey.svg?maxAge=2592000" alt="lightgrey">
 <img src="https://img.shields.io/badge/color-blue-blue.svg?maxAge=2592000" alt="blue">
 <img src="https://img.shields.io/badge/color-ff69b4-ff69b4.svg?maxAge=2592000" alt="ff69b4">
+<img src="https://img.shields.io/badge/color-new-8892bf.svg?maxAge=2592000" alt="8892bf">
 </p>
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
