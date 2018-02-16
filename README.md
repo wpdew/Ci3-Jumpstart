@@ -1,4 +1,5 @@
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+
 [![GitHub issues](https://img.shields.io/github/issues/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/issues)
 [![GitHub forks](https://img.shields.io/github/forks/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/network)
 [![GitHub stars](https://img.shields.io/github/stars/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/stargazers)
@@ -7,9 +8,8 @@
 [![API](https://img.shields.io/badge/11%2022%20333-August%2023%2C%202017-36ade1.svg)](https://###)
 ![PHP](https://img.shields.io/badge/php-%3E%3D5.3-8892bf.svg)
 
-https://img.shields.io/badge/1-2-green.svg
 <p class="badge-img">
-<img src="https://img.shields.io/badge/color-brightgreen-brightgreen.svg?maxAge=2592000" alt="brightgreen">
+<img src="https://img.shields.io/badge/color-brightgreen-brightgreen.svg?maxAge=2592000?style=plastic" alt="brightgreen">
 <img src="https://img.shields.io/badge/color-green-green.svg?maxAge=2592000" alt="green">
 <img src="https://img.shields.io/badge/color-yellowgreen-yellowgreen.svg?maxAge=2592000" alt="yellowgreen">
 <img src="https://img.shields.io/badge/color-yellow-yellow.svg?maxAge=2592000" alt="yellow">
