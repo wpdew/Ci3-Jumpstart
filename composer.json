@@ -1,0 +1,16 @@
+{
+    "name": "pomerla/Ci3-Jumpstart",
+    "description": "A very simple Cjdeigniter3-Jumpstart",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aleksandr Moroz",
+            "email": "aleksmorro@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=5.0"
+    }
+}
