@@ -1,0 +1,702 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Testing &mdash; CodeIgniter4 4.0.0-dev documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/ci-icon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/citheme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="CodeIgniter4 4.0.0-dev documentation" href="../index.html"/>
+        <link rel="up" title="General Topics" href="index.html"/>
+        <link rel="next" title="Library Reference" href="../libraries/index.html"/>
+        <link rel="prev" title="Alternate PHP Syntax for View Files" href="alternative_php.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> CodeIgniter4
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Welcome to CodeIgniter4</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation/index.html">Installation</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorial/index.html">Tutorial</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../concepts/index.html">CodeIgniter4 Overview</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">General Topics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="configuration.html">Working With Configuration Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="urls.html">CodeIgniter URLs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="controllers.html">Controllers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html">Views</a></li>
+<li class="toctree-l2"><a class="reference internal" href="view_cells.html">View Cells</a></li>
+<li class="toctree-l2"><a class="reference internal" href="view_renderer.html">View Renderer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="view_parser.html">View Parser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="helpers.html">Helper Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="core_classes.html">Creating Core System Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="events.html">Events - Extending the Framework Core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="common_functions.html">Global Functions and Constants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="routing.html">URI Routing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="filters.html">Controller Filters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logging.html">Logging Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="errors.html">Error Handling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="debugging.html">Debugging Your Application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="caching.html">Web Page Caching</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cli.html">Running via the CLI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cli_commands.html">Custom CLI Commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html">Code Modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing_apps.html">Managing your Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="environments.html">Handling Multiple Environments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="alternative_php.html">Alternate PHP Syntax for View Files</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Testing</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../libraries/index.html">Library Reference</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../database/index.html">Database Reference</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../helpers/index.html">Helpers</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">Contributing to CodeIgniter</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CodeIgniter4</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">General Topics</a> &raquo;</li>
+        
+      <li>Testing</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="testing">
+<h1>Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h1>
+<p>CodeIgniter has been built to make testing both the framework and your application as simple as possible.
+Support for <code class="docutils literal"><span class="pre">PHPUnit</span></code> is built in, and a <code class="docutils literal"><span class="pre">phpunit.xml</span></code> file is already setup for your application.
+It also provides a number of convenient helper methods to make testing every aspect of your application
+as painless as possible.</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#testing-your-application" id="id3">Testing Your Application</a><ul>
+<li><a class="reference internal" href="#the-test-class" id="id4">The Test Class</a></li>
+<li><a class="reference internal" href="#mocking-services" id="id5">Mocking Services</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#testing-controllers" id="id6">Testing Controllers</a><ul>
+<li><a class="reference internal" href="#the-helper-trait" id="id7">The Helper Trait</a></li>
+<li><a class="reference internal" href="#helper-methods" id="id8">Helper Methods</a></li>
+<li><a class="reference internal" href="#checking-the-response" id="id9">Checking the Response</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#testing-your-database" id="id10">Testing Your Database</a><ul>
+<li><a class="reference internal" href="#id1" id="id11">The Test Class</a></li>
+<li><a class="reference internal" href="#test-database-setup" id="id12">Test Database Setup</a></li>
+<li><a class="reference internal" href="#id2" id="id13">Helper Methods</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="testing-your-application">
+<h2><a class="toc-backref" href="#id3">Testing Your Application</a><a class="headerlink" href="#testing-your-application" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-test-class">
+<h3><a class="toc-backref" href="#id4">The Test Class</a><a class="headerlink" href="#the-test-class" title="Permalink to this headline">¶</a></h3>
+<p>In order to take advantage of the additional tools provided, your tests must extend <code class="docutils literal"><span class="pre">\CIUnitTestCase</span></code>:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyTests</span> <span class="k">extends</span> <span class="nx">\CIUnitTestCase</span>
+<span class="p">{</span>
+    <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">More features are planned, but are not implemented yet. Stay tuned.</p>
+</div>
+</div>
+<div class="section" id="mocking-services">
+<h3><a class="toc-backref" href="#id5">Mocking Services</a><a class="headerlink" href="#mocking-services" title="Permalink to this headline">¶</a></h3>
+<p>You will often find that you need to mock one of the services defined in <strong>application/Config/Services.php</strong> to limit
+your tests to only the code in question, while simulating various responses from the services. This is especially
+true when testing controllers and other integration testing. CodeIgniter makes this simple.</p>
+<p>While in test mode, the system loads a wrapper around the <strong>Services</strong> class that provides two new methods,
+<code class="docutils literal"><span class="pre">injectMock()</span></code>, and <code class="docutils literal"><span class="pre">reset()</span></code>.</p>
+<p><strong>injectMock()</strong></p>
+<p>This method allows you to define the exact instance that will be returned by the Services class. You can use this to
+set properties of a service so that it behaves in a certain way, or replace a service with a mocked class.</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="k">public</span> <span class="k">function</span> <span class="nf">testSomething</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="nv">$curlrequest</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">getMockBuilder</span><span class="p">(</span><span class="s1">&#39;CodeIgniter\HTTP\CURLRequest&#39;</span><span class="p">)</span>
+                        <span class="o">-&gt;</span><span class="na">setMethods</span><span class="p">([</span><span class="s1">&#39;request&#39;</span><span class="p">])</span>
+                        <span class="o">-&gt;</span><span class="na">getMock</span><span class="p">();</span>
+    <span class="nx">Services</span><span class="o">::</span><span class="na">injectMock</span><span class="p">(</span><span class="s1">&#39;curlrequest&#39;</span><span class="p">,</span> <span class="nv">$curlrequest</span><span class="p">);</span>
+
+    <span class="c1">// Do normal testing here....</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>The first parameter is the service that you are replacing. The name must match the function name in the Services
+class exactly. The second parameter is the instance to replace it with.</p>
+<p><strong>reset()</strong></p>
+<p>Removes all mocked classes from the Services class, bringing it back to its original state.</p>
+</div>
+</div>
+<div class="section" id="testing-controllers">
+<h2><a class="toc-backref" href="#id6">Testing Controllers</a><a class="headerlink" href="#testing-controllers" title="Permalink to this headline">¶</a></h2>
+<p>Testing your controllers is made convenient with a couple of new helper classes and traits. When testing controllers,
+you can execute the code within a controller, without first running through the entire application bootstrap process.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Because the entire framework has not been bootstrapped, there will be times when you cannot test a controller
+this way.</p>
+</div>
+<div class="section" id="the-helper-trait">
+<h3><a class="toc-backref" href="#id7">The Helper Trait</a><a class="headerlink" href="#the-helper-trait" title="Permalink to this headline">¶</a></h3>
+<p>You can use either of the base test classes described herein, but you do need to use the <cite>ControllerTester</cite> trait
+within your tests:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="k">use</span> <span class="nx">Tests\Support\Helpers\ControllerTester</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">TestControllerA</span> <span class="k">extends</span> <span class="nx">CIDatabaseTestCase</span>
+<span class="p">{</span>
+    <span class="k">use</span> <span class="nx">ControllerTester</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Once the trait has been included, you can start setting up the environment, including the request and response classes,
+the request body, URI, and more. You specify the controller to use with the <code class="docutils literal"><span class="pre">controller()</span></code> method, passing in the
+fully qualified class name of your controller. Finally, call the <code class="docutils literal"><span class="pre">execute()</span></code> method with the name of the method
+to run as the parameter:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="k">use</span> <span class="nx">Tests\Support\Helpers\ControllerTester</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">TestControllerA</span> <span class="k">extends</span> <span class="nx">CIDatabaseTestCase</span>
+<span class="p">{</span>
+    <span class="k">use</span> <span class="nx">ControllerTester</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">testShowCategories</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="nv">$result</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withURI</span><span class="p">(</span><span class="s1">&#39;http://example.com/categories&#39;</span><span class="p">)</span>
+                        <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                        <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">assertTrue</span><span class="p">(</span><span class="nv">$result</span><span class="o">-&gt;</span><span class="na">isOK</span><span class="p">());</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="helper-methods">
+<h3><a class="toc-backref" href="#id8">Helper Methods</a><a class="headerlink" href="#helper-methods" title="Permalink to this headline">¶</a></h3>
+<p><strong>controller($class)</strong></p>
+<p>Specifies the class name of the controller to test. The first parameter must be a fully qualified class name
+(i.e. include the namespace):</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">);</span>
+</pre></div>
+</div>
+<p><strong>execute($method)</strong></p>
+<p>Executes the specified method within the controller. The only parameter is the name of the method to run:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>This returns a new helper class that provides a number of routines for checking the response itself. See below
+for details.</p>
+<p><strong>withConfig($config)</strong></p>
+<p>Allows you to pass in a modified version of <strong>ConfigApp.php</strong> to test with different settings:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$config</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Config\App</span><span class="p">();</span>
+<span class="nv">$config</span><span class="o">-&gt;</span><span class="na">appTimezone</span> <span class="o">=</span> <span class="s1">&#39;America/Chicago&#39;</span><span class="p">;</span>
+
+<span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withConfig</span><span class="p">(</span><span class="nv">$config</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>If you do not provide one, the application’s App config file will be used.</p>
+<p><strong>withRequest($request)</strong></p>
+<p>Allows you to provide an <strong>IncomingRequest</strong> instance tailored to your testing needs:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$request</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">CodeIgniter\HTTP\IncomingRequest</span><span class="p">(</span><span class="k">new</span> <span class="nx">Config\App</span><span class="p">(),</span> <span class="k">new</span> <span class="nx">URI</span><span class="p">(</span><span class="s1">&#39;http://example.com&#39;</span><span class="p">));</span>
+<span class="nv">$request</span><span class="o">-&gt;</span><span class="na">setLocale</span><span class="p">(</span><span class="nv">$locale</span><span class="p">);</span>
+
+<span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withRequest</span><span class="p">(</span><span class="nv">$request</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>If you do not provide one, a new IncomingRequest instance with the default application values will be passed
+into your controller.</p>
+<p><strong>withResponse($response)</strong></p>
+<p>Allows you to provide a <strong>Response</strong> instance:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$response</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">CodeIgniter\HTTP\Response</span><span class="p">(</span><span class="k">new</span> <span class="nx">Config\App</span><span class="p">());</span>
+
+<span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withResponse</span><span class="p">(</span><span class="nv">$response</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>If you do not provide one, a new Response instance with the default application values will be passed
+into your controller.</p>
+<p><strong>withURI($uri)</strong></p>
+<p>Allows you to provide a new URI that simulates the URL the client was visiting when this controller was ran.
+This is helpful if you need to check URI segments within your controller. The only parameter is a string
+representing a valid URI:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withURI</span><span class="p">(</span><span class="s1">&#39;http://example.com/forums/categories&#39;</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>It is a good practice to always provide the URI during testing to avoid surprises.</p>
+<p><strong>withBody($body)</strong></p>
+<p>Allows you to provide a custom body for the request. This can be helpful when testing API controllers where
+you need to set a JSON value as the body. The only parameter is a string that represents the body of the request:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$body</span> <span class="o">=</span> <span class="nb">json_encode</span><span class="p">([</span><span class="s1">&#39;foo&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;bar&#39;</span><span class="p">]);</span>
+
+<span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withBody</span><span class="p">(</span><span class="nv">$body</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="checking-the-response">
+<h3><a class="toc-backref" href="#id9">Checking the Response</a><a class="headerlink" href="#checking-the-response" title="Permalink to this headline">¶</a></h3>
+<p>When the controller is executed, a new <strong>ControllerResponse</strong> instance will be returned that provides a number
+of helpful methods, as well as direct access to the Request and Response that were generated.</p>
+<p><strong>isOK()</strong></p>
+<p>This provides a simple check that the response would be considered a “successful” response. This primarily checks that
+the HTTP status code is within the 200 or 300 ranges:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withBody</span><span class="p">(</span><span class="nv">$body</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nv">$results</span><span class="o">-&gt;</span><span class="na">isOK</span><span class="p">())</span>
+<span class="p">{</span>
+    <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>isRedirect()</strong></p>
+<p>Checks to see if the final response was a redirection of some sort:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withBody</span><span class="p">(</span><span class="nv">$body</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nv">$results</span><span class="o">-&gt;</span><span class="na">isRedirect</span><span class="p">())</span>
+<span class="p">{</span>
+    <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>request()</strong></p>
+<p>You can access the Request object that was generated with this method:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withBody</span><span class="p">(</span><span class="nv">$body</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+
+<span class="nv">$request</span> <span class="o">=</span> <span class="nv">$results</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">();</span>
+</pre></div>
+</div>
+<p><strong>response()</strong></p>
+<p>This allows you access to the response object that was generated, if any:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withBody</span><span class="p">(</span><span class="nv">$body</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+
+<span class="nv">$response</span> <span class="o">=</span> <span class="nv">$results</span><span class="o">-&gt;</span><span class="na">response</span><span class="p">();</span>
+</pre></div>
+</div>
+<p><strong>getBody()</strong></p>
+<p>You can access the body of the response that would have been sent to the client with the <strong>getBody()</strong> method. This could
+be generated HTML, or a JSON response, etc.:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$results</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">withBody</span><span class="p">(</span><span class="nv">$body</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">controller</span><span class="p">(</span><span class="nx">\App\Controllers\ForumController</span><span class="o">::</span><span class="na">class</span><span class="p">)</span>
+                 <span class="o">-&gt;</span><span class="na">execute</span><span class="p">(</span><span class="s1">&#39;showCategories&#39;</span><span class="p">);</span>
+
+<span class="nv">$body</span> <span class="o">=</span> <span class="nv">$results</span><span class="o">-&gt;</span><span class="na">getBody</span><span class="p">();</span>
+</pre></div>
+</div>
+<div class="section" id="response-helper-methods">
+<h4>Response Helper methods<a class="headerlink" href="#response-helper-methods" title="Permalink to this headline">¶</a></h4>
+<p>The response you get back contains a number of helper methods to inspect the HTML output within the response. These
+are useful for using within assertions in your tests.</p>
+<p>The <strong>see()</strong> method checks the text on the page to see if it exists either by itself, or more specifically within
+a tag, as specified by type, class, or id:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="c1">// Check that &quot;Hello World&quot; is on the page</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">see</span><span class="p">(</span><span class="s1">&#39;Hello World&#39;</span><span class="p">);</span>
+<span class="c1">// Check that &quot;Hello World&quot; is within an h1 tag</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">see</span><span class="p">(</span><span class="s1">&#39;Hello World&#39;</span><span class="p">,</span> <span class="s1">&#39;h1&#39;</span><span class="p">);</span>
+<span class="c1">// Check that &quot;Hello World&quot; is within an element with the &quot;notice&quot; class</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">see</span><span class="p">(</span><span class="s1">&#39;Hello World&#39;</span><span class="p">,</span> <span class="s1">&#39;.notice&#39;</span><span class="p">);</span>
+<span class="c1">// Check that &quot;Hello World&quot; is within an element with id of &quot;title&quot;</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">see</span><span class="p">(</span><span class="s1">&#39;Hellow World&#39;</span><span class="p">,</span> <span class="s1">&#39;#title&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>The <strong>dontSee()</strong> method is the exact opposite:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span>// Checks that &quot;Hello World&quot; does NOT exist on the page
+$results-&gt;dontSee(&#39;Hello World&quot;);
+// Checks that &quot;Hellow World&quot; does NOT exist within any h1 tag
+$results-&gt;dontSee(&#39;Hello World&#39;, &#39;h1&#39;);
+</pre></div>
+</div>
+<p>The <strong>seeElement()</strong> and <strong>dontSeeElement()</strong> are very similar to the previous methods, but do not look at the
+values of the elements. Instead, they simply check that the elements exist on the page:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="c1">// Check that an element with class &#39;notice&#39; exists</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">seeElement</span><span class="p">(</span><span class="s1">&#39;.notice&#39;</span><span class="p">);</span>
+<span class="c1">// Check that an element with id &#39;title&#39; exists</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">seeElement</span><span class="p">(</span><span class="s1">&#39;#title&#39;</span><span class="p">)</span>
+<span class="c1">// Verify that an element with id &#39;title&#39; does NOT exist</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">dontSeeElement</span><span class="p">(</span><span class="s1">&#39;#title&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>You can use <strong>seeLink()</strong> to ensure that a link appears on the page with the specified text:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="c1">// Check that a link exists with &#39;Upgrade Account&#39; as the text::</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">seeLink</span><span class="p">(</span><span class="s1">&#39;Upgrade Account&#39;</span><span class="p">);</span>
+<span class="c1">// Check that a link exists with &#39;Upgrade Account&#39; as the text, AND a class of &#39;upsell&#39;</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">seeLink</span><span class="p">(</span><span class="s1">&#39;Upgrade Account&#39;</span><span class="p">,</span> <span class="s1">&#39;.upsell&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>The <strong>seeInField()</strong> method checks for any input tags exist with the name and value:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="c1">// Check that an input exists named &#39;user&#39; with the value &#39;John Snow&#39;</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">seeInField</span><span class="p">(</span><span class="s1">&#39;user&#39;</span><span class="p">,</span> <span class="s1">&#39;John Snow&#39;</span><span class="p">);</span>
+<span class="c1">// Check a multi-dimensional input</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">seeInField</span><span class="p">(</span><span class="s1">&#39;user[name]&#39;</span><span class="p">,</span> <span class="s1">&#39;John Snow&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Finally, you can check if a checkbox exists and is checked with the <strong>seeCheckboxIsChecked()</strong> method:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="c1">// Check if checkbox is checked with class of &#39;foo&#39;</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">seeCheckboxIsChecked</span><span class="p">(</span><span class="s1">&#39;.foo&#39;</span><span class="p">);</span>
+<span class="c1">// Check if checkbox with id of &#39;bar&#39; is checked</span>
+<span class="nv">$results</span><span class="o">-&gt;</span><span class="na">seeCheckboxIsChecked</span><span class="p">(</span><span class="s1">&#39;#bar&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="testing-your-database">
+<h2><a class="toc-backref" href="#id10">Testing Your Database</a><a class="headerlink" href="#testing-your-database" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3><a class="toc-backref" href="#id11">The Test Class</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>In order to take advantage of the built-in database tools that CodeIgniter provides for testing, your
+tests must extend <code class="docutils literal"><span class="pre">\CIDatabaseTestCase</span></code>:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyTests</span> <span class="k">extends</span> <span class="nx">\CIDatabaseTestCase</span>
+<span class="p">{</span>
+    <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Because special functionality is ran during the <code class="docutils literal"><span class="pre">setUp()</span></code> and <code class="docutils literal"><span class="pre">tearDown()</span></code> phases, you must ensure
+that you call the parent’s methods if you need to use those methods, otherwise you will lose much
+of the functionality described here.</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyTests</span> <span class="k">extends</span> <span class="nx">\CIDatabaseTestCase</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">setUp</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">parent</span><span class="o">::</span><span class="na">setUp</span><span class="p">();</span>
+
+        <span class="c1">// Do something here....</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">tearDown</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="k">parent</span><span class="o">::</span><span class="na">tearDown</span><span class="p">();</span>
+
+        <span class="c1">// Do something here....</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="test-database-setup">
+<h3><a class="toc-backref" href="#id12">Test Database Setup</a><a class="headerlink" href="#test-database-setup" title="Permalink to this headline">¶</a></h3>
+<p>When running database tests, you need to provide a database that can be used during testing. Instead of
+using the PHPUnit built-in database features, the framework provides tools specific to CodeIgniter. The first
+step is to ensure that you have a <code class="docutils literal"><span class="pre">tests</span></code> database group setup in <strong>application/Config/Database.php</strong>.
+This specifies a database connection that is only used while running tests, to keep your other data safe.</p>
+<p>If you have multiple developers on your team, you will likely want to keep your credentials store in
+the <strong>.env</strong> file. To do so, edit the file to ensure the following lines are present, and have the
+correct information:</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nx">database</span><span class="o">.</span><span class="nx">tests</span><span class="o">.</span><span class="nx">dbdriver</span> <span class="o">=</span> <span class="s1">&#39;MySQLi&#39;</span><span class="p">;</span>
+<span class="nx">database</span><span class="o">.</span><span class="nx">tests</span><span class="o">.</span><span class="nx">username</span> <span class="o">=</span> <span class="s1">&#39;root&#39;</span><span class="p">;</span>
+<span class="nx">database</span><span class="o">.</span><span class="nx">tests</span><span class="o">.</span><span class="nx">password</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+<span class="nx">database</span><span class="o">.</span><span class="nx">tests</span><span class="o">.</span><span class="nx">database</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+</pre></div>
+</div>
+<div class="section" id="migrations-and-seeds">
+<h4>Migrations and Seeds<a class="headerlink" href="#migrations-and-seeds" title="Permalink to this headline">¶</a></h4>
+<p>When running tests you need to ensure that your database has the correct schema setup, and that
+it is in a known state for every test. You can use migrations and seeds to setup your database,
+by adding a couple of class properties to your test.</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyTests</span> <span class="k">extends</span> <span class="nx">\CIDatabaseTestCase</span>
+<span class="p">{</span>
+    <span class="k">protected</span> <span class="nv">$refresh</span>  <span class="o">=</span> <span class="k">true</span><span class="p">;</span>
+    <span class="k">protected</span> <span class="nv">$seed</span>     <span class="o">=</span> <span class="s1">&#39;TestSeeder&#39;</span><span class="p">;</span>
+    <span class="k">protected</span> <span class="nv">$basePath</span> <span class="o">=</span> <span class="s1">&#39;path/to/database/files&#39;</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>$refresh</strong></p>
+<p>This boolean value determines whether the database is completely refreshed before every test. If true,
+all migrations are rolled back to version 0, then the database is migrated to the latest available migration.</p>
+<p><strong>$seed</strong></p>
+<p>If present and not empty, this specifies the name of a Seed file that is ran to populate the database with
+test data prior to every test running.</p>
+<p><strong>$basePath</strong></p>
+<p>By default, CodeIgniter will look in <strong>tests/_support/database/migrations</strong> and <strong>tests/_support_database/seeds</strong>
+to locate the migrations and seeds that it should run during testing. You can change this directory by specifying
+the path in the <code class="docutils literal"><span class="pre">$basePath</span></code> property. This should not include the <strong>migrations</strong> or <strong>seeds</strong> directories, but
+the path to the single directory that holds both of those sub-directories.</p>
+</div>
+</div>
+<div class="section" id="id2">
+<h3><a class="toc-backref" href="#id13">Helper Methods</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>The <strong>CIDatabaseTestCase</strong> class provides several helper methods to aid in testing your database.</p>
+<p><strong>seed($name)</strong></p>
+<p>Allows you to manually load a Seed into the database. The only parameter is the name of the seed to run. The seed
+must be present within the path specified in <code class="docutils literal"><span class="pre">$basePath</span></code>.</p>
+<p><strong>dontSeeInDatabase($table, $criteria)</strong></p>
+<p>Asserts that a row with criteria matching the key/value pairs in <code class="docutils literal"><span class="pre">$criteria</span></code> DOES NOT exist in the database.</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$criteria</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;email&#39;</span>  <span class="o">=&gt;</span> <span class="s1">&#39;joe@example.com&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;active&#39;</span> <span class="o">=&gt;</span> <span class="mi">1</span>
+<span class="p">];</span>
+<span class="nv">$this</span><span class="o">-&gt;</span><span class="na">dontSeeInDatabase</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">,</span> <span class="nv">$criteria</span><span class="p">);</span>
+</pre></div>
+</div>
+<p><strong>seeInDatabase($table, $criteria)</strong></p>
+<p>Asserts that a row with criteria matching the key/value pairs in <code class="docutils literal"><span class="pre">$criteria</span></code> DOES exist in the database.</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$criteria</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;email&#39;</span>  <span class="o">=&gt;</span> <span class="s1">&#39;joe@example.com&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;active&#39;</span> <span class="o">=&gt;</span> <span class="mi">1</span>
+<span class="p">];</span>
+<span class="nv">$this</span><span class="o">-&gt;</span><span class="na">seeInDatabase</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">,</span> <span class="nv">$criteria</span><span class="p">);</span>
+</pre></div>
+</div>
+<p><strong>grabFromDatabase($table, $column, $criteria)</strong></p>
+<p>Returns the value of <code class="docutils literal"><span class="pre">$column</span></code> from the specified table where the row matches <code class="docutils literal"><span class="pre">$criteria</span></code>. If more than one
+row is found, it will only test against the first one.</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$username</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">grabFromDatabase</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">,</span> <span class="s1">&#39;username&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;email&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;joe@example.com&#39;</span><span class="p">]);</span>
+</pre></div>
+</div>
+<p><strong>hasInDatabase($table, $data)</strong></p>
+<p>Inserts a new row into the database. This row is removed after the current test runs. <code class="docutils literal"><span class="pre">$data</span></code> is an associative
+array with the data to insert into the table.</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$data</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;email&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;joe@example.com&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;name&#39;</span>  <span class="o">=&gt;</span> <span class="s1">&#39;Joe Cool&#39;</span>
+<span class="p">];</span>
+<span class="nv">$this</span><span class="o">-&gt;</span><span class="na">hasInDatabase</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">,</span> <span class="nv">$data</span><span class="p">);</span>
+</pre></div>
+</div>
+<p><strong>seeNumRecords($expected, $table, $criteria)</strong></p>
+<p>Asserts that a number of matching rows are found in the database that match <code class="docutils literal"><span class="pre">$criteria</span></code>.</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$criteria</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;deleted&#39;</span> <span class="o">=&gt;</span> <span class="mi">1</span>
+<span class="p">];</span>
+<span class="nv">$this</span><span class="o">-&gt;</span><span class="na">seeNumRecords</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;users&#39;</span><span class="p">,</span> <span class="nv">$criteria</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../libraries/index.html" class="btn btn-neutral float-right" title="Library Reference" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="alternative_php.html" class="btn btn-neutral" title="Alternate PHP Syntax for View Files" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014-2018 British Columbia Institute of Technology.
+      Last updated on Jan 10, 2018.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'4.0.0-dev',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  false,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
