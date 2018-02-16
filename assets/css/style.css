@@ -23,6 +23,20 @@ body, html {
     border-color: #2e6da4;
     text-decoration: none;
 }
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 85%;
+}
  h2{
 	 margin-top:100px;
 	 }
