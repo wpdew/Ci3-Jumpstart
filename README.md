@@ -20,7 +20,7 @@ Installation will start automatically.
 Fill the connection settings to the database and set the administrator login and password.
 The install.txt file is required. This file will be automatically deleted after installation.
 
-When you're done, you can delete this ( .gitignore, LICENSE	, README.md, composer.json ) with your repository.
+When you're done, you can delete this ( .gitignore, LICENSE	, README.md, composer.json and dir vendor) with your repository.
     
 *We recommend that you open this README in another tab as you perform the tasks below. You can [(watch our video Soon)](https://youtu.be/) for a full demo of all the steps in this tutorial.*
 
