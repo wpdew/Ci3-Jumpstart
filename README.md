@@ -16,7 +16,7 @@ composer create-project pomerla/ci3-jumpstart
 
 When you're done, you can delete this  .gitignore, LICENSE	, README.md, composer.json with your repository.
     
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial.*
+*We recommend that you open this README in another tab as you perform the tasks below. You can [(watch our video Soon)](https://youtu.be/) for a full demo of all the steps in this tutorial.*
 
 ---
 
