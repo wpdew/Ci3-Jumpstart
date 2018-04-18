@@ -1,11 +1,5 @@
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
-[![GitHub issues](https://img.shields.io/github/issues/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/issues)
-[![GitHub forks](https://img.shields.io/github/forks/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/network)
-[![GitHub stars](https://img.shields.io/github/stars/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/stargazers)
-[![GitHub license](https://img.shields.io/github/license/pomerla/Ci3-Jumpstart.svg?style=plastic)](https://github.com/pomerla/Ci3-Jumpstart/blob/master/LICENSE)
-
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/pomerla/Ci3-Jumpstart.svg?style=social&style=plastic)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fpomerla%2FCi3-Jumpstart)
 [![API](https://img.shields.io/badge/11%2022%20333-August%2023%2C%202017-36ade1.svg)](https://###)
 ![PHP](https://img.shields.io/badge/php-%3E%3D5.3-8892bf.svg)
 
