@@ -1,7 +1,7 @@
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
 [![API](https://img.shields.io/badge/11%2022%20333-August%2023%2C%202017-36ade1.svg)](https://###)
-![PHP](https://img.shields.io/badge/Codeigniter-3.1.8-8892bf.svg)
+![Codeigniter](https://img.shields.io/badge/Codeigniter-3.1.8-orange.svg)
 
 <p class="badge-img">
 <img src="https://img.shields.io/badge/color-brightgreen-brightgreen.svg?maxAge=2592000?style=plastic" alt="brightgreen">
