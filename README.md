@@ -18,9 +18,11 @@ Or download and unzip the latest version of the archive to your hosting.
 Go to the directory with the unpacked engine.
 Installation will start automatically.
 Fill the connection settings to the database and set the administrator login and password.
-The install.txt file is required. This file will be automatically deleted after installation.
+The install.txt file is required. This file will be automatically deleted after installation.<br />
 
 When you're done, you can delete this ( .gitignore, LICENSE	, README.md, composer.json and dir vendor) with your repository.<br />
+
+Bootstrap and font-awesome are in the assets folders.<br />
 
 A simple CRUD library is included in the assembly.<br />
 Example of use
