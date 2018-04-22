@@ -188,13 +188,18 @@ define('ENABLE_DEVELBAR', FALSE);
 file_put_contents('config.php', $database_data, LOCK_EX);
                   //writting application/config/database
 
-$home_url = implode('', array_slice(explode('/', $_SERVER['PHP_SELF']), 0, -1));
-$htaccess_data.= "#set the site encoding
+//$home_url = implode('', array_slice(explode('/', $_SERVER['PHP_SELF']), 0, -1));
+$home_url = dirname($_SERVER['SCRIPT_NAME']);
+$str = array('\\', '/');
+$replase   = array('', '');
+$home_url = str_replace($str, $replase, $home_url);
+
+$htaccess_data = "#set the site encoding
 AddDefaultCharset UTF-8
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /$home_url
+    RewriteBase /".$home_url."
 
     #Removes access to the system folder by users.
     #Additionally this will allow you to create a System.php controller,
