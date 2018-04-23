@@ -2,7 +2,7 @@
 
 [![API](https://img.shields.io/badge/Update-May%2018%2C%202018-36ade1.svg)](https://###)
 ![Codeigniter](https://img.shields.io/badge/Codeigniter-3.1.8-orange.svg)
-
+**GitHub Release**  | [![GitHub release][gh-rel-badge]][gh-rel]
 
 
 ## Quick start
