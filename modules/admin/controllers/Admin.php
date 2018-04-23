@@ -6,9 +6,9 @@ class Admin extends MX_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		$this->load->library(array('ion_auth', 'form_validation'));
-	    $this->load->library('common/crud_lib');
+		$this->load->library('common/crud_lib');
         $this->crud_lib->check_install();
+        $this->load->library(array('ion_auth', 'form_validation'));
         
         if(!isset($_SESSION["language"])){
             $siteLang = $this->session->userdata('site_lang');
