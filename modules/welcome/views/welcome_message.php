@@ -7,128 +7,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Welcome to CodeIgniter</title>
 <link href="<?php echo base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet" />
 <link href="<?php echo base_url('assets/css/font-awesome.min.css')?>" rel="stylesheet" />
+<link href="<?php echo base_url('assets/css/app.css')?>" rel="stylesheet" />
 
 <link id="page_favicon" href="<?php echo base_url('assets/favicon.png')?>" rel="icon" type="image/x-icon" />
-	<style type="text/css">
-
-	::selection { background-color: #f07746; color: #fff; }
-	::-moz-selection { background-color: #f07746; color: #fff; }
-
-	body {
-		background-color: #fff;
-		margin: 40px auto;
-		max-width: 1024px;
-		font: 16px/24px normal "Helvetica Neue",Helvetica,Arial,sans-serif;
-		color: #808080;
-	}
-
-	a {
-		color: #dd4814;
-		background-color: transparent;
-		font-weight: normal;
-		text-decoration: none;
-	}
-
-	a:hover {
-	   color: #97310e;
-	}
-
-	h1 {
-		color: #fff;
-		background-color: #dd4814;
-		border-bottom: 1px solid #d0d0d0;
-		font-size: 22px;
-		font-weight: bold;
-		margin: 0 0 14px 0;
-		padding: 5px 10px;
-		line-height: 40px;
-	}
-
-	h1 img {
-		display: block;
-	}
-
-	h2 {
-		color:#404040;
-		margin:0;
-		padding:0 0 10px 0;
-	}
-
-	code {
-		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 13px;
-		background-color: #f5f5f5;
-		border: 1px solid #e3e3e3;
-		border-radius: 4px;
-		color: #002166;
-		display: block;
-		margin: 14px 0 14px 0;
-		padding: 12px 10px 12px 10px;
-	}
-
-	#body {
-		margin: 0 15px 0 15px;
-		min-height: 96px;
-	}
-
-	p {
-		 margin: 0 0 10px;
-		 padding:0;
-	}
-
-	p.footer {
-		text-align: right;
-		font-size: 12px;
-		border-top: 1px solid #d0d0d0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-		background:#8ba8af;
-		color:#fff;
-	}
-
-	#container {
-		margin: 10px;
-		border: 1px solid #d0d0d0;
-		box-shadow: 0 0 8px #d0d0d0;
-		border-radius: 4px;
-	}
-.logo{
-        margin: 5px 0px 0px -5px;
-}    
-.navbar-inverse
-{
-    background:#dd4814;
-    border-bottom-color: #8d2604;
-    margin: 0px 0px 15px 0px;
-}
-.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>.dropdown>a .caret
-{
-    color: #fff;
-}
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus,
-.navbar-nav>li>.dropdown-menu
-{
-    background:#e94c17;
-}
-.nav-pills>li>a,
-{
-    color: #303F9F;
-}
-
-.nav>li>a:hover, .nav>li>a:focus
-{
-    background-color: #EEEEEE;
-}
-.admin-menu>li>a{
-    color: #fff;
-}
-.admin-menu>li>a:focus, .admin-menu>li>a:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: #dd4814;
-}    
-	</style>
+	
 </head>
 <body>
 	<div id="container">
@@ -194,6 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<p><?php echo $st_4; ?> <a href="user_guide/"><?php echo $text_user_guide; ?></a>.</p>
 		</div>
 
+        
 		<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 	</div>
 <script src="<?php echo base_url('assets/js/jquery-2.0.0.min.js')?>"></script>    

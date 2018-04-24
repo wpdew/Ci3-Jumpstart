@@ -17,6 +17,20 @@ class Crud_lib {
         }
     }
     
+    function check_update(){
+        $url = 'https://api.github.com/repos/pomerla/Ci3-Jumpstart/releases';
+        $data = json_decode(file_get_contents($url));
+        $data = $data['0'];
+        $for_git = $data->name;
+        $search  = array('v', 'V', '.');
+        $replace = array('', '', '');
+        $git_reliz = str_replace($search, $replace, $for_git);
+        $current = str_replace($search, $replace, VERSION_ENGIN);
+        
+        if($git_reliz > $current){ echo 'New version available: <a href="https://badge.fury.io/gh/pomerla%2FCi3-Jumpstart" target="_blank"><img src="https://badge.fury.io/gh/pomerla%2FCi3-Jumpstart.svg" alt="GitHub version" height="18"></a>';}
+        else { echo 'Ci3-Jumpstart: '.VERSION_ENGIN;}
+    }
+    
     //выборка таблицы
     function get_table($table)
     {

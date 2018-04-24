@@ -8,7 +8,7 @@ define('CMS_DEV_URL', 'http://moroz.rv.ua/');
 // SISTEM CONFIG
 define('FITTING_ADMIN', '0141');
 define('VERSION_ADMIN', 'SmartAdmin v1.9.0');
-define('VERSION_ENGIN', 'Helper v1.0');
+define('VERSION_ENGIN', 'v1.1.3');
 
 // DB CONFIG
 define('DB_USE', 'zip');

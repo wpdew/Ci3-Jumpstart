@@ -76,6 +76,9 @@ class Admin extends MX_Controller {
 	}
 	
 	
+    public function getlast(){
+        $this->crud_lib->check_update();
+    }
 	
 	
 }
