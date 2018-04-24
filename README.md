@@ -3,7 +3,7 @@
 [![API](https://img.shields.io/badge/Update-May%2024%2C%202018-36ade1.svg)](https://###)
 ![Codeigniter](https://img.shields.io/badge/Codeigniter-3.1.8-orange.svg)
 
-<img src="https://img.shields.io/badge/Update-May/24/2018-36ade1.svg" /><img src="https://img.shields.io/badge/Codeigniter-3.1.8-orange.svg" /><a href="https://github.com/pomerla/Ci3-Jumpstart/releases" alt="Version"><img src="https://img.shields.io/badge/Version-v1.1.4-brightgreen.svg" /></a>
+<img src="https://img.shields.io/badge/Update-May/24/2018-36ade1.svg" /> <img src="https://img.shields.io/badge/Codeigniter-3.1.8-orange.svg" /> <a href="https://github.com/pomerla/Ci3-Jumpstart/releases" alt="Version"><img src="https://img.shields.io/badge/Version-v1.1.4-brightgreen.svg" /></a>
 
 
 ## Quick start
