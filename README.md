@@ -2,7 +2,7 @@
 
 [![API](https://img.shields.io/badge/Update-May%2018%2C%202018-36ade1.svg)](https://###)
 ![Codeigniter](https://img.shields.io/badge/Codeigniter-3.1.8-orange.svg)
-[![GitHub version](https://badge.fury.io/gh/pomerla%2FCi3-Jumpstart.svg)](https://badge.fury.io/gh/pomerla%2FCi3-Jumpstart)
+<a href="https://github.com/pomerla/Ci3-Jumpstart/releases" alt="Version"><img src="https://img.shields.io/badge/Version-v1.1.4-brightgreen.svg" /></a>
 
 
 ## Quick start
